@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBECD4F1BFF148400EDCF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBECD4E1BFF148400EDCF8C /* AppDelegate.swift */; };
+		CEBECD561BFF148400EDCF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBECD551BFF148400EDCF8C /* Assets.xcassets */; };
+		CEBECD591BFF148400EDCF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBECD571BFF148400EDCF8C /* LaunchScreen.storyboard */; };
+		CEBECD641BFF148400EDCF8C /* JRSwift_PieChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBECD631BFF148400EDCF8C /* JRSwift_PieChartTests.swift */; };
+		CEBECD6F1BFF148400EDCF8C /* JRSwift_PieChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBECD6E1BFF148400EDCF8C /* JRSwift_PieChartUITests.swift */; };
+		CEBECD7D1BFF149300EDCF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBECD7C1BFF149300EDCF8C /* ViewController.swift */; };
+		CEBECD7F1BFF14A400EDCF8C /* Piechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBECD7E1BFF14A400EDCF8C /* Piechart.swift */; };
+		CEBECD871BFF151900EDCF8C /* dart.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBECD841BFF151900EDCF8C /* dart.png */; };
+		CEBECD891BFF151900EDCF8C /* wash.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBECD861BFF151900EDCF8C /* wash.png */; };
+		CEBECD8D1BFF15F300EDCF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBECD8B1BFF15F300EDCF8C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBECD601BFF148400EDCF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBECD431BFF148400EDCF8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBECD4A1BFF148400EDCF8C;
+			remoteInfo = "JRSwift-PieChart";
+		};
+		CEBECD6B1BFF148400EDCF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBECD431BFF148400EDCF8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBECD4A1BFF148400EDCF8C;
+			remoteInfo = "JRSwift-PieChart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBECD4B1BFF148400EDCF8C /* JRSwift-PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JRSwift-PieChart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBECD4E1BFF148400EDCF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBECD551BFF148400EDCF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBECD581BFF148400EDCF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBECD5A1BFF148400EDCF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBECD5F1BFF148400EDCF8C /* JRSwift-PieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JRSwift-PieChartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBECD631BFF148400EDCF8C /* JRSwift_PieChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRSwift_PieChartTests.swift; sourceTree = "<group>"; };
+		CEBECD651BFF148400EDCF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBECD6A1BFF148400EDCF8C /* JRSwift-PieChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JRSwift-PieChartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBECD6E1BFF148400EDCF8C /* JRSwift_PieChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRSwift_PieChartUITests.swift; sourceTree = "<group>"; };
+		CEBECD701BFF148400EDCF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBECD7C1BFF149300EDCF8C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBECD7E1BFF14A400EDCF8C /* Piechart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piechart.swift; sourceTree = "<group>"; };
+		CEBECD841BFF151900EDCF8C /* dart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dart.png; sourceTree = "<group>"; };
+		CEBECD861BFF151900EDCF8C /* wash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wash.png; sourceTree = "<group>"; };
+		CEBECD8C1BFF15F300EDCF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBECD481BFF148400EDCF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBECD5C1BFF148400EDCF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBECD671BFF148400EDCF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBECD421BFF148400EDCF8C = {
+			isa = PBXGroup;
+			children = (
+				CEBECD4D1BFF148400EDCF8C /* JRSwift-PieChart */,
+				CEBECD621BFF148400EDCF8C /* JRSwift-PieChartTests */,
+				CEBECD6D1BFF148400EDCF8C /* JRSwift-PieChartUITests */,
+				CEBECD4C1BFF148400EDCF8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBECD4C1BFF148400EDCF8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBECD4B1BFF148400EDCF8C /* JRSwift-PieChart.app */,
+				CEBECD5F1BFF148400EDCF8C /* JRSwift-PieChartTests.xctest */,
+				CEBECD6A1BFF148400EDCF8C /* JRSwift-PieChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBECD4D1BFF148400EDCF8C /* JRSwift-PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				CEBECD4E1BFF148400EDCF8C /* AppDelegate.swift */,
+				CEBECD7C1BFF149300EDCF8C /* ViewController.swift */,
+				CEBECD7E1BFF14A400EDCF8C /* Piechart.swift */,
+				CEBECD8B1BFF15F300EDCF8C /* Main.storyboard */,
+				CEBECD831BFF14CE00EDCF8C /* Supporting files */,
+				CEBECD551BFF148400EDCF8C /* Assets.xcassets */,
+				CEBECD571BFF148400EDCF8C /* LaunchScreen.storyboard */,
+				CEBECD5A1BFF148400EDCF8C /* Info.plist */,
+			);
+			path = "JRSwift-PieChart";
+			sourceTree = "<group>";
+		};
+		CEBECD621BFF148400EDCF8C /* JRSwift-PieChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBECD631BFF148400EDCF8C /* JRSwift_PieChartTests.swift */,
+				CEBECD651BFF148400EDCF8C /* Info.plist */,
+			);
+			path = "JRSwift-PieChartTests";
+			sourceTree = "<group>";
+		};
+		CEBECD6D1BFF148400EDCF8C /* JRSwift-PieChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBECD6E1BFF148400EDCF8C /* JRSwift_PieChartUITests.swift */,
+				CEBECD701BFF148400EDCF8C /* Info.plist */,
+			);
+			path = "JRSwift-PieChartUITests";
+			sourceTree = "<group>";
+		};
+		CEBECD831BFF14CE00EDCF8C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBECD841BFF151900EDCF8C /* dart.png */,
+				CEBECD861BFF151900EDCF8C /* wash.png */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBECD4A1BFF148400EDCF8C /* JRSwift-PieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBECD731BFF148400EDCF8C /* Build configuration list for PBXNativeTarget "JRSwift-PieChart" */;
+			buildPhases = (
+				CEBECD471BFF148400EDCF8C /* Sources */,
+				CEBECD481BFF148400EDCF8C /* Frameworks */,
+				CEBECD491BFF148400EDCF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JRSwift-PieChart";
+			productName = "JRSwift-PieChart";
+			productReference = CEBECD4B1BFF148400EDCF8C /* JRSwift-PieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBECD5E1BFF148400EDCF8C /* JRSwift-PieChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBECD761BFF148400EDCF8C /* Build configuration list for PBXNativeTarget "JRSwift-PieChartTests" */;
+			buildPhases = (
+				CEBECD5B1BFF148400EDCF8C /* Sources */,
+				CEBECD5C1BFF148400EDCF8C /* Frameworks */,
+				CEBECD5D1BFF148400EDCF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBECD611BFF148400EDCF8C /* PBXTargetDependency */,
+			);
+			name = "JRSwift-PieChartTests";
+			productName = "JRSwift-PieChartTests";
+			productReference = CEBECD5F1BFF148400EDCF8C /* JRSwift-PieChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBECD691BFF148400EDCF8C /* JRSwift-PieChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBECD791BFF148400EDCF8C /* Build configuration list for PBXNativeTarget "JRSwift-PieChartUITests" */;
+			buildPhases = (
+				CEBECD661BFF148400EDCF8C /* Sources */,
+				CEBECD671BFF148400EDCF8C /* Frameworks */,
+				CEBECD681BFF148400EDCF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBECD6C1BFF148400EDCF8C /* PBXTargetDependency */,
+			);
+			name = "JRSwift-PieChartUITests";
+			productName = "JRSwift-PieChartUITests";
+			productReference = CEBECD6A1BFF148400EDCF8C /* JRSwift-PieChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBECD431BFF148400EDCF8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jrjithin;
+				TargetAttributes = {
+					CEBECD4A1BFF148400EDCF8C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CEBECD5E1BFF148400EDCF8C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CEBECD4A1BFF148400EDCF8C;
+					};
+					CEBECD691BFF148400EDCF8C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CEBECD4A1BFF148400EDCF8C;
+					};
+				};
+			};
+			buildConfigurationList = CEBECD461BFF148400EDCF8C /* Build configuration list for PBXProject "JRSwift-PieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBECD421BFF148400EDCF8C;
+			productRefGroup = CEBECD4C1BFF148400EDCF8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBECD4A1BFF148400EDCF8C /* JRSwift-PieChart */,
+				CEBECD5E1BFF148400EDCF8C /* JRSwift-PieChartTests */,
+				CEBECD691BFF148400EDCF8C /* JRSwift-PieChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBECD491BFF148400EDCF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBECD591BFF148400EDCF8C /* LaunchScreen.storyboard in Resources */,
+				CEBECD8D1BFF15F300EDCF8C /* Main.storyboard in Resources */,
+				CEBECD891BFF151900EDCF8C /* wash.png in Resources */,
+				CEBECD561BFF148400EDCF8C /* Assets.xcassets in Resources */,
+				CEBECD871BFF151900EDCF8C /* dart.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBECD5D1BFF148400EDCF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBECD681BFF148400EDCF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBECD471BFF148400EDCF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBECD7D1BFF149300EDCF8C /* ViewController.swift in Sources */,
+				CEBECD7F1BFF14A400EDCF8C /* Piechart.swift in Sources */,
+				CEBECD4F1BFF148400EDCF8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBECD5B1BFF148400EDCF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBECD641BFF148400EDCF8C /* JRSwift_PieChartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBECD661BFF148400EDCF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBECD6F1BFF148400EDCF8C /* JRSwift_PieChartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBECD611BFF148400EDCF8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBECD4A1BFF148400EDCF8C /* JRSwift-PieChart */;
+			targetProxy = CEBECD601BFF148400EDCF8C /* PBXContainerItemProxy */;
+		};
+		CEBECD6C1BFF148400EDCF8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBECD4A1BFF148400EDCF8C /* JRSwift-PieChart */;
+			targetProxy = CEBECD6B1BFF148400EDCF8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBECD571BFF148400EDCF8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBECD581BFF148400EDCF8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBECD8B1BFF15F300EDCF8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBECD8C1BFF15F300EDCF8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBECD711BFF148400EDCF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBECD721BFF148400EDCF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBECD741BFF148400EDCF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JRSwift-PieChart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JRS.JRSwift-PieChart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEBECD751BFF148400EDCF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JRSwift-PieChart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JRS.JRSwift-PieChart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEBECD771BFF148400EDCF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JRSwift-PieChartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JRS.JRSwift-PieChartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRSwift-PieChart.app/JRSwift-PieChart";
+			};
+			name = Debug;
+		};
+		CEBECD781BFF148400EDCF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JRSwift-PieChartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JRS.JRSwift-PieChartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRSwift-PieChart.app/JRSwift-PieChart";
+			};
+			name = Release;
+		};
+		CEBECD7A1BFF148400EDCF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JRSwift-PieChartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JRS.JRSwift-PieChartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JRSwift-PieChart";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEBECD7B1BFF148400EDCF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JRSwift-PieChartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JRS.JRSwift-PieChartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JRSwift-PieChart";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBECD461BFF148400EDCF8C /* Build configuration list for PBXProject "JRSwift-PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBECD711BFF148400EDCF8C /* Debug */,
+				CEBECD721BFF148400EDCF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBECD731BFF148400EDCF8C /* Build configuration list for PBXNativeTarget "JRSwift-PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBECD741BFF148400EDCF8C /* Debug */,
+				CEBECD751BFF148400EDCF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEBECD761BFF148400EDCF8C /* Build configuration list for PBXNativeTarget "JRSwift-PieChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBECD771BFF148400EDCF8C /* Debug */,
+				CEBECD781BFF148400EDCF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEBECD791BFF148400EDCF8C /* Build configuration list for PBXNativeTarget "JRSwift-PieChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBECD7A1BFF148400EDCF8C /* Debug */,
+				CEBECD7B1BFF148400EDCF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBECD431BFF148400EDCF8C /* Project object */;
+}
